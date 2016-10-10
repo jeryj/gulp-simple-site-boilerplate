@@ -1,0 +1,26 @@
+Static Website Boilerplate with Gulp
+---------------------------------
+
+This is a basic boilerplate for compiling a static site using gulp to quickly create websites using SASS and JS for minified, compressed resources.
+
+### Structure
+
+```
+    /assets - Files you'll edit that will be built and compressed into the /dist folder. you can
+        /img - images are run through gulp-imagemin (https://www.npmjs.com/package/gulp-imagemin)
+        /sass - all sass/scss files run through gulp-sass, gulp-autoprefixer, gulp-minify-css
+        /js - js files run through gulp-uglify to minify and compress
+    /dist - output from assets folder. look at gulpfile.js for notes on how to change/add more resources to be output to /dist
+        /css
+        /img
+        /js
+    /views - Views to be included in main page files, however you want to set it up. Nothing is automated here.
+
+```
+
+### Local Set-up
+After downloading this project, go to the project directory in your console and run `npm install` to install all the necessary gulp modules. After the install is finished (successfully, hopefully!), run `gulp` to compile all images, sass, and js files into the `/dist` directory. This will also watch for any changes to images, sass, or js files in the assets directory and automatically rebuild them on save.
+
+### Contributing
+
+Think there are some places this could be improved? Let me know! Open an issue or create a pull request. Cheers!
