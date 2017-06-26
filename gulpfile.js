@@ -48,7 +48,6 @@ gulp.task('compressImg', function() {
             .pipe(gulp.dest('dist/img'));
 });
 
-
 function processSASS(filename) {
     return gulp.src('assets/sass/'+filename+'.{scss,sass}')
       // Converts Sass into CSS with Gulp Sass

@@ -22,8 +22,5 @@
     "gulp-svgmin": "^1.2.3",
     "gulp-svgstore": "^6.1.0",
     "gulp-uglify": "^2.1.0"
-  },
-  "dependencies": {
-    "marked": "^0.3.6"
   }
 }
