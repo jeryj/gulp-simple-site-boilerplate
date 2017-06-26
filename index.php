@@ -5,10 +5,6 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <title>Gulp Starter</title>
     <link rel='stylesheet' href='dist/css/styles.min.css'/>
-
-    <!--[if lt IE 9]>
-        <script src="dist/js/html5shiv.js"></script>
-    <![endif]-->
 </head>
 <body>
 <?php include('views/header.php');?>
